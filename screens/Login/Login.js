@@ -53,6 +53,7 @@ export default class Login extends React.Component {
               alignSelf: 'center'
             }} secureTextEntry required>
           </TextInput>
+          
         </View>
 
 
