@@ -1,5 +1,6 @@
 import React from 'react';
-import { View, ImageBackground } from 'react-native';
+import { View, ImageBackground, StatusBar } from 'react-native';
+import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
 
 
 export default class Splash extends React.Component {
@@ -14,7 +15,8 @@ export default class Splash extends React.Component {
   render() {
     return (
       <View>
-        <ImageBackground source={require('D:/Machine test/assets/img.png')} style={{ width: '100%', height: '100%', }}></ImageBackground>
+        <ImageBackground source={require('D:/Machine test/assets/img.png')}
+          style={{ width: wp('100%'), height: hp('100%') }}></ImageBackground>
       </View>
 
     );
