@@ -11,7 +11,7 @@ export default class Login extends React.Component {
       <View style={{ flex: 1, backgroundColor: 'white' }}>
 
         <View>
-          <Image source={require('D:/Machine test/assets/img.png')}
+          <Image source={require('../../assets/img.png')}
             style={{ alignSelf: 'center', width: wp('80%'), height: hp('30%') }}></Image>
         </View>
 

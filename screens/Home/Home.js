@@ -16,7 +16,7 @@ export default class Splash extends React.Component {
 
 
                 <View>
-                    <Image source={require('D:/Machine test/assets/img.png')} style={{ alignSelf: 'center', width: wp('80%'), height: hp('30%') }}></Image>
+                    <Image source={require('../../assets/img.png')} style={{ alignSelf: 'center', width: wp('80%'), height: hp('30%') }}></Image>
                 </View>
                 <View>
                     <Text style={{ alignSelf: 'center' }}>Hi User, you are in dashboard!</Text>

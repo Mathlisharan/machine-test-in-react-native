@@ -17,7 +17,7 @@ export default class Signup extends React.Component {
         <ScrollView>
 
           <View style={{ top: hp('-10%') }}>
-            <Image source={require('D:/Machine test/assets/img.png')}
+            <Image source={require('../../assets/img.png')}
               style={{ alignSelf: 'center', width: wp('80%'), height: hp('30%') }}></Image>
           </View>
 

@@ -15,7 +15,7 @@ export default class Splash extends React.Component {
   render() {
     return (
       <View>
-        <ImageBackground source={require('D:/Machine test/assets/img.png')}
+        <ImageBackground source={require('../../assets/img.png')}
           style={{ width: wp('100%'), height: hp('100%') }}></ImageBackground>
       </View>
 
