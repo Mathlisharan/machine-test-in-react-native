@@ -3,9 +3,6 @@ import { TextInput, View, Text, Image } from 'react-native';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
 
-
-
-
 export default class Login extends React.Component {
 
 
